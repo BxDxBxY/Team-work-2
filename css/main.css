@@ -230,6 +230,141 @@ h5{
 
 
 /* Ozodbek's Css start */
+.second__page{
+    background-image: url(../images/Ozodbek.images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.second__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second__logo{
+    margin: 55px 0 0 64px;
+    padding: 0;
+    display: inline-block;
+}
+
+.second__nav{
+    color: #ffffff;
+    display: flex;
+    height: 96px;
+    width: 830px;
+    margin-top:37px;
+    margin-left: 600px;
+    margin-right: 0;
+    padding: 38px 167px 38px 123px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav__home{
+    height: 19px;
+    top: calc(50% - 19px/2);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    /* color:#ffffff;
+    margin-left: 12px; */
+}
+
+.nav__destination{
+    height: 19px;
+    top: calc(50% - 19px/2);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    /* color:#ffffff;
+    margin-left: 12px; */
+}
+
+.nav__crew{
+    height: 19px;
+    top: calc(50% - 19px/2);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    /* color:#ffffff;
+    margin-left: 12px; */
+}
+
+.nav__technology{
+    height: 19px;
+    top: calc(50% - 19px/2);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    /* color:#ffffff;
+    margin-left: 12px; */
+}
+
+
+.second__number{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 166px;
+    margin-top: 76px;
+    margin-right: 0;
+    height: 34px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    opacity: 0.25;
+}
+
+.second__title{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* margin-top: 76px; */
+    margin-left: 24px;
+    height: 34px;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
 
 /* Ozodbek's Css end */
 
