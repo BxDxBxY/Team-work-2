@@ -4,10 +4,19 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
+
+        url('../fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/barlow-condensed-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
     url('../fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
     url('../fonts/barlow-condensed-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 *{
+
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,7 +24,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
 }
@@ -154,9 +163,6 @@ h5{
 
 
 
-/* Temurbek's Css start */
-
-/* Temurbek's Css end */
 
 
 
@@ -165,3 +171,213 @@ h5{
 /* Ahmad's Css start */
 
 /* Ahmad's Css end */
+/* Temurbek's Css start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.temin__container {
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.temin__body {
+    background-image: url('../imgs/bg.jpg');
+    min-height: 100vh;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url(../fonts/barlow-condensed-v12-latin-regular.woff);
+}
+
+@font-face {
+    font-family: 'Bellefair';
+    src: url(../fonts/bellefair-v14-latin-regular.woff);
+}
+
+.temin {
+    padding: 40px 0 0 0;
+}
+
+.temin__nav {
+    justify-content: space-between;
+    padding-left: 55px;
+}
+
+.temin__list {
+    padding: 0 166px 0 123px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    position: relative;
+}
+
+.temin__item {
+    margin-right: 50px;
+}
+
+.temin__item:last-child {
+    margin-right: 0;
+}
+
+.temin__line {
+
+    position: absolute;
+    top: 50%;
+    right: calc(100% - 40px);
+    border: none;
+    width: 473px;
+    max-width: 100%;
+    border: 1px solid wheat;
+    background: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.temin__link {
+    padding: 39px 0 35px;
+    display: inline-block;
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    border-bottom: 3px solid transparent;
+}
+
+.temin__link:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.temin__span {
+    font-weight: 700;
+    margin-right: 11px;
+}
+
+.temin__active {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 35px;
+}
+
+.technalogy {
+    margin-top: 40px;
+}
+
+.technalogy__content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 80px 108px;
+    margin-top: 26px;
+}
+
+.technalogy__span {
+    margin-right: 24px;
+    font-family: "Barlow Condensed";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.technalogy__title {
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 26px;
+}
+
+.technalogy__list {
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 120px;
+}
+
+.technalogy__link {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 21px 32px;
+    font-family: "Bellefair";
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.technalogy__link:hover {
+    color: #0b0d17;
+    background-color: #ffffff;
+    transition: all 0.3s;
+}
+
+.technalogy__box {
+    margin-top: 120px;
+    margin-left: 80px;
+    margin: 108px;
+}
+
+.technalogy__commander {
+    margin-bottom: 11px;
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #d0d6f9;
+}
+
+.technalogy__titleh2 {
+    margin-bottom: 17px;
+    font-family: "Bellefair";
+    font-size: 56px;
+    line-height: 64px;
+    color: #ffffff;
+}
+
+.technalogy__subtitle {
+    font-family: "Barlow";
+    font-size: 18px;
+    line-height: 32px;
+    color: #d0d6f9;
+    width: 470px;
+    max-width: 100%;
+}
+
+.technalogy__img {
+    position: relative;
+    left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Temurbek's Css end */
