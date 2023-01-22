@@ -4,9 +4,9 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('../fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/barlow-condensed-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+    url('../fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/barlow-condensed-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -19,8 +19,127 @@ body{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
 }
+.cs1{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 /* Jack's Css start */
+.jacks-sect{
+    background-image: url("../images/JacksImg/bg.png");
+    background-size: cover;
+    
+}
+
+.top-nav{
+    padding: 40px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.jacks-list{
+    position: relative;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    padding-left: 80px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+.sp{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+}
+.jacks-list-item{
+    font-weight: 200;
+    padding: 30px 0;
+    transition: all 0.3s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    
+    color: #FFFFFF;
+    
+}
+.df{
+    font-weight: 200;
+    transition: all 0.3s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    
+    color: #FFFFFF;
+    
+}
+.jacks-list-item:hover{
+    border-bottom: 3px solid white;
+}
+
+.middle-info{
+    width: 450px;
+    padding: 250px 0 160px;
+    position: relative;
+    gap: 24px;
+}
+
+h5{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+}
+.h55{
+    font-family: 'Bellefair';
+    position: absolute;
+    padding: 120px 64px;
+    left: 190%;
+    top: 50%;
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+    border-radius: 50%;
+}
+.p{
+    /* font-family: 'Barlow'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+}
+.h1{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
 
 /* Jack's Css end */
 
